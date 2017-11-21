@@ -16,7 +16,7 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form role="form" class="">
+                    <form class="">
                         <div class="box-body">
                             <div class="form-group col-md-6">
                                 <label for="first_name">First Name</label>

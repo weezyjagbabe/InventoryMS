@@ -52,8 +52,8 @@ Route::get('/projects', function () {
     return view('pages.projects');
 });
 
-Route::get('/newproduct', function () {
-    return view('pages.newproduct');
+Route::get('/products/create', function () {
+    return view('pages.product.create');
 });
 
 Route::get('/productinfo', function () {
