@@ -41,7 +41,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/newuser"><i class="fa fa-circle-o"></i> Add New User</a></li>
+                    <li><a href="/users/create"><i class="fa fa-circle-o"></i> Add New User</a></li>
                     <li><a href="/users"><i class="fa fa-circle-o"></i> View All Users</a></li>
                 </ul>
             </li>

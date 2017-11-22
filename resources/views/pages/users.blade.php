@@ -3,7 +3,7 @@
 @section('title', 'Users')
 @section('description', 'Personnel Directory')
 
-@section('content')
+@section('content-body')
     <div class="box box-danger">
         <div class="box-header with-border">
             <h3 class="box-title">All Members</h3>
@@ -62,10 +62,5 @@
             </ul>
             <!-- /.users-list -->
         </div>
-        <!-- /.box-body -->
-        {{--<div class="box-footer text-center">--}}
-            {{--<a href="javascript:void(0)" class="uppercase">View All Users</a>--}}
-        {{--</div>--}}
-        <!-- /.box-footer -->
     </div>
 @endsection
