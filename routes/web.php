@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/sales', function () {
-    return view('pages.sales');
+    return view('pages.sale.index');
 });
 
 
@@ -27,12 +27,12 @@ Route::get('/products', function () {
 
 
 Route::get('/users', function () {
-    return view('pages.users');
+    return view('pages.user.index');
 });
 
 
-Route::get('/newuser', function () {
-    return view('pages.newuser');
+Route::get('/users/create', function () {
+    return view('pages.user.create');
 });
 
 Route::get('/order', function () {
@@ -56,6 +56,10 @@ Route::get('/products/create', function () {
     return view('pages.product.create');
 });
 
+Route::get('/products', function () {
+    return view('pages.product.index');
+});
+
 Route::get('/productinfo', function () {
     return view('pages.productinfo');
 });
@@ -64,12 +68,12 @@ Route::get('/updateproduct', function () {
     return view('pages.updateproduct');
 });
 
-Route::get('/updateuser', function () {
-    return view('pages.updateuser');
+Route::get('/users/{id}/edit', function () {
+    return view('pages.users.create');
 });
 
-Route::get('/userinfo', function () {
-    return view('pages.userinfo');
+Route::get('/users/{id}', function () {
+    return view('pages.user.show');
 });
 
 
