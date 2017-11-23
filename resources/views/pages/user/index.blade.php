@@ -1,7 +1,7 @@
 @extends ('layout.app')
-@section('title', 'Products')
-@section('description', 'Products')
-@section('content-title', 'All Products')
+@section('title', 'Users')
+@section('description', 'Users')
+@section('content-title', 'All Users')
 @section('content-body')
     <ul class="users-list clearfix">
         <li>
