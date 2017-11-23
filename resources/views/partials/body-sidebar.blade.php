@@ -26,7 +26,7 @@
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MENU</li>
             <li>
-                <a href="#">
+                <a href="/">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     <span class="pull-right-container">
             </span>
@@ -41,8 +41,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/users/create"><i class="fa fa-circle-o"></i> Add New User</a></li>
-                    <li><a href="/users"><i class="fa fa-circle-o"></i> View All Users</a></li>
+                    <li><a href="{{url('users/create')}}"><i class="fa fa-circle-o"></i> Add New User</a></li>
+                    <li><a href="{{url('users')}}"><i class="fa fa-circle-o"></i> View All Users</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -66,7 +66,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/sales"><i class="fa fa-circle-o"></i> All Orders</a></li>
+                    <li><a href="/{{url('sales')}}"><i class="fa fa-circle-o"></i> All Orders</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -77,8 +77,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/newproject"><i class="fa fa-circle-o"></i> New Project</a></li>
-                    <li><a href="/projects"><i class="fa fa-circle-o"></i> All Projects</a></li>
+                    <li><a href="{{url('projects/create')}}"><i class="fa fa-circle-o"></i> New Project</a></li>
+                    <li><a href="{{url('projects')}}"><i class="fa fa-circle-o"></i> All Projects</a></li>
                 </ul>
             </li>
 
@@ -90,9 +90,9 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/reportsweekly"><i class="fa fa-circle-o"></i> Weekly</a></li>
-                    <li><a href="/reportsmonthly"><i class="fa fa-circle-o"></i> Monthly</a></li>
-                    <li><a href="/reports"><i class="fa fa-circle-o"></i> Sales</a></li>
+                    <li><a href="{{url('reports/weekly')}}"><i class="fa fa-circle-o"></i> Weekly</a></li>
+                    <li><a href="{{url('reports/monthly')}}"><i class="fa fa-circle-o"></i> Monthly</a></li>
+                    <li><a href="{{url('reports')}}"><i class="fa fa-circle-o"></i> Sales</a></li>
 
                 </ul>
             </li>
