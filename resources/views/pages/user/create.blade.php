@@ -4,7 +4,7 @@
 @section('content-title', 'User Details')
 @section('content-body')
     <form class="">
-        <div class="box-body">
+        <div class="row">
             <div class="form-group col-md-6">
                 <label for="first_name">First Name</label>
                 <input type="text" class="form-control" id="first_name" placeholder="Enter FirstName">
@@ -48,8 +48,11 @@
 
         </div>
         <!-- /.box-body -->
-        <div class="box-footer ">
-            <button type="submit" class="btn btn-primary">Add User</button>
+        <div class="row">
+            <div class="form-group col-md-6 text-right"></div>
+            <div class="form-group col-md-6 text-right">
+                <button type="submit" class="btn btn-primary">Add User</button>
+            </div>
         </div>
     </form>
 @endsection

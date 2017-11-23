@@ -66,6 +66,7 @@ Route::get('/products/{id}/edit', function () {
     return view('pages.product.create');
 });
 
+
 Route::get('/reports', function () {
     return view('pages.report.index');
 });

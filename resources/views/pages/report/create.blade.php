@@ -1,7 +1,7 @@
 @extends ('layout.app')
-@section('title', 'Sales')
-@section('description', 'Order Product')
-@section('content-title', 'Order Information')
+@section('title', 'Reports')
+@section('description', 'Add New Report')
+@section('content-title', 'Report Details')
 @section('content-body')
     <form class="">
         <div class="box-body">
@@ -32,8 +32,6 @@
             <div class="form-group col-md-6">
                 <label for="image">Image</label>
                 <input type="file" id="image">
-
-                <p class="help-block">Photo of user</p>
             </div>
             <div class="form-group col-md-6">
                 <label>Department</label>
@@ -51,9 +49,8 @@
         <div class="row">
             <div class="form-group col-md-6 text-right"></div>
             <div class="form-group col-md-6 text-right">
-                <button type="submit" class="btn btn-primary">Place Order</button>
+                <button type="submit" class="btn btn-primary">Add Report</button>
             </div>
         </div>
-
     </form>
 @endsection
