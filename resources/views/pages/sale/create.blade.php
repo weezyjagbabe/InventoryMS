@@ -1,7 +1,7 @@
 @extends ('layout.app')
-@section('title', 'Products')
-@section('description', 'Add New Product')
-@section('content-title', 'Product Information')
+@section('title', 'Sales')
+@section('description', 'Order Product')
+@section('content-title', 'Order Information')
 @section('content-body')
     <form class="">
         <div class="box-body">
@@ -48,8 +48,11 @@
 
         </div>
         <!-- /.box-body -->
-        <div class="box-footer ">
-            <button type="submit" class="btn btn-primary">Add User</button>
+        <div class="row">
+            <div class="form-group col-md-6 text-right"></div>
+            <div class="form-group col-md-6 text-right">
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </div>
         </div>
 
     </form>

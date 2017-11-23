@@ -76,6 +76,10 @@ Route::get('/users/{id}', function () {
     return view('pages.user.show');
 });
 
+Route::get('/sales/{id}', function () {
+    return view('pages.sale.show');
+});
+
 
 Route::get('/reports', function () {
     return view('pages.reports');
