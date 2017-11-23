@@ -1,7 +1,7 @@
 @extends ('layout.app')
-@section('title', 'Users')
-@section('description', 'Viewing User')
-@section('content-title', 'User Details')
+@section('title', 'Reports')
+@section('description', 'Reports')
+@section('content-title', 'Report Details')
 @section('content-body')
     <div class="col-md-12">
         <!-- Widget: user widget style 1 -->
