@@ -1,117 +1,67 @@
 @extends ('layout.app')
-@section('title', 'Users')
-@section('description', 'Viewing User')
-@section('content-title', 'User Details')
+@section('title', 'Products')
+@section('description', 'Products')
+@section('content-title', 'All Products')
 @section('content-body')
-    <div class="col-md-12">
-        <!-- Widget: user widget style 1 -->
-        <div class="box box-widget widget-user">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-aqua-active">
-                <h3 class="widget-user-username">Alexander Pierce</h3>
-                <h5 class="widget-user-desc">Administrator</h5>
+    <ul class="products-list product-list-in-box">
+        <li class="item">
+            <div class="product-img">
+                <img src="dist/img/sumsung.jpeg" alt="Product Image">
             </div>
-            <div class="widget-user-image">
-                <img class="img-circle" src="../dist/img/user1-128x128.jpg" alt="User Avatar">
+            <div class="product-info">
+                <a href="/productinfo" class="product-title">Samsung TV
+                    <span class="label label-info pull-right">GH¢ 1800</span>
+
+                </a>
+
+                <span class="product-description">
+                          Samsung 32" 1080p 60Hz LED Smart HDTV.
+                        </span>
+                <span class="label label-success">83 pieces</span>
             </div>
-            <div class="box-footer">
-                <div class="row">
-                    {{--<div class="col-sm-4 border-right">--}}
-                    {{--<div class="description-block">--}}
-                    {{--<h5 class="description-header">3,200</h5>--}}
-                    {{--<span class="description-text">SALES</span>--}}
-                    {{--</div>--}}
-                    {{--<!-- /.description-block -->--}}
-                    {{--</div>--}}
-                    {{--<!-- /.col -->--}}
-                    {{--<div class="col-sm-4 border-right">--}}
-                    {{--<div class="description-block">--}}
-                    {{--<h5 class="description-header">13,000</h5>--}}
-                    {{--<span class="description-text">FOLLOWERS</span>--}}
-                    {{--</div>--}}
-                    {{--<!-- /.description-block -->--}}
-                    {{--</div>--}}
-                    {{--<!-- /.col -->--}}
-                    {{--<div class="col-sm-4">--}}
-                    {{--<div class="description-block">--}}
-                    {{--<h5 class="description-header">35</h5>--}}
-                    {{--<span class="description-text">PRODUCTS</span>--}}
-                    {{--</div>--}}
-                    {{--<!-- /.description-block -->--}}
-                    {{--</div>--}}
-                    <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">Alexander</h5>
-                            <span class="description-text">first name</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-4 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">Brain</h5>
-                            <span class="description-text">Middle Name</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-4">
-                        <div class="description-block">
-                            <h5 class="description-header">Pierce</h5>
-                            <span class="description-text">Last Name</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <div class="col-sm-6 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">Email:</h5>
-                            {{--<span class="description-text">Email</span>--}}
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                        <div class="description-block">
-                            {{--<h5 class="description-header">joeyb@smithy.brain</h5>--}}
-                            <span class="description-text">joeyb@smithy.brain</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <div class="col-sm-6 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">Department:</h5>
-                            {{--<span class="description-text">Email</span>--}}
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                        <div class="description-block">
-                            {{--<h5 class="description-header">joeyb@smithy.brain</h5>--}}
-                            <span class="description-text">Accounts</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <div class="col-sm-6 border-right">
-                        <div class="description-block">
-                            <h5 class="description-header">User Role:</h5>
-                            {{--<span class="description-text">Email</span>--}}
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                        <div class="description-block">
-                            {{--<h5 class="description-header">joeyb@smithy.brain</h5>--}}
-                            <span class="description-text">Administrator</span>
-                        </div>
-                        <!-- /.description-block -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
+        </li>
+        <!-- /.item -->
+        <li class="item">
+            <div class="product-img">
+                <img src="dist/img/bicycle.jpeg" alt="Product Image">
             </div>
-        </div>
-        <!-- /.widget-user -->
-    </div>
+            <div class="product-info">
+                <a href="javascript:void(0)" class="product-title">Bicycle
+                    <span class="label label-info pull-right">GH¢ 700</span></a>
+                <span class="product-description">
+                          26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                        </span>
+                <span class="label label-danger">0 pieces</span>
+            </div>
+        </li>
+        <!-- /.item -->
+        <li class="item">
+            <div class="product-img">
+                <img src="dist/img/xbox.jpg" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <a href="javascript:void(0)" class="product-title">Xbox One <span
+                            class="label label-info pull-right">GH¢ 350</span></a>
+                <span class="product-description">
+                          Xbox One Console Bundle with Halo Master Chief Collection.
+                        </span>
+                <span class="label label-warning">7 pieces</span>
+            </div>
+        </li>
+        <!-- /.item -->
+        <li class="item">
+            <div class="product-img">
+                <img src="dist/img/playstation-4.png" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <a href="javascript:void(0)" class="product-title">PlayStation 4
+                    <span class="label label-info pull-right">GH¢ 399</span></a>
+                <span class="product-description">
+                          PlayStation 4 500GB Console (PS4)
+                        </span>
+                <span class="label label-success">60 pieces</span>
+            </div>
+        </li>
+        <!-- /.item -->
+    </ul>
 @endsection
