@@ -26,7 +26,7 @@
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MENU</li>
             <li>
-                <a href="/">
+                <a href="{{url('/')}}">
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     <span class="pull-right-container">
             </span>
@@ -66,7 +66,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/{{url('sales')}}"><i class="fa fa-circle-o"></i> All Orders</a></li>
+                    <li><a href="{{url('sales')}}"><i class="fa fa-circle-o"></i> All Orders</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -82,20 +82,20 @@
                 </ul>
             </li>
 
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-folder"></i> <span>Reports</span>
-                    <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a href="{{url('reports/weekly')}}"><i class="fa fa-circle-o"></i> Weekly</a></li>
-                    <li><a href="{{url('reports/monthly')}}"><i class="fa fa-circle-o"></i> Monthly</a></li>
-                    <li><a href="{{url('reports')}}"><i class="fa fa-circle-o"></i> Sales</a></li>
+            {{--<li class="treeview">--}}
+                {{--<a href="#">--}}
+                    {{--<i class="fa fa-folder"></i> <span>Reports</span>--}}
+                    {{--<span class="pull-right-container">--}}
+              {{--<i class="fa fa-angle-left pull-right"></i>--}}
+            {{--</span>--}}
+                {{--</a>--}}
+                {{--<ul class="treeview-menu">--}}
+                    {{--<li><a href="{{url('reports/weekly')}}"><i class="fa fa-circle-o"></i> Weekly</a></li>--}}
+                    {{--<li><a href="{{url('reports/monthly')}}"><i class="fa fa-circle-o"></i> Monthly</a></li>--}}
+                    {{--<li><a href="{{url('reports')}}"><i class="fa fa-circle-o"></i> Sales</a></li>--}}
 
-                </ul>
-            </li>
+                {{--</ul>--}}
+            {{--</li>--}}
 
             <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
