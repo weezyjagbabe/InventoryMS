@@ -28,6 +28,7 @@ storage/*.key
 .env.*.php
 .env.php
 .env
+.tar.*
 Homestead.yaml
 Homestead.json
 
