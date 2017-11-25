@@ -13,7 +13,7 @@ class SaleController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.sale.index')->with(['box' => '', 'view_position' => 'col-lg-']);
     }
 
     /**
@@ -45,7 +45,7 @@ class SaleController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('pages.sale.show')->with(['box' => '', 'view_position' => 'col-lg-']);
     }
 
     /**

@@ -11,7 +11,8 @@
 |
 */
 Route::get('', function (){
-    return view('pages.reports');
+    $view_position = "col-lg-12";
+    return view('welcome', compact('view_position'));
 });
 Route::resource('product', 'ProductController');
 Route::resource('project', 'ProjectController');

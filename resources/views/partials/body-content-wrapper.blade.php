@@ -17,13 +17,14 @@
             <!-- left column -->
             <div class="box box-primary">
                 <!-- general form elements -->
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="{{$view_position ?? $default_view_position}}">
                     <p></p>
-                    <div class="box">
+                    <div class={{$box ?? ""}}>
                         <div class="box-header">
                             <h3 class="box-title">@yield('content-title')</h3>
                         </div>
                         <!-- /.box-header -->
+
                         <div class="box-body">
                             @yield('content-body')
                         </div>

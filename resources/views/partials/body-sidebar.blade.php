@@ -41,8 +41,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{url('users/create')}}"><i class="fa fa-circle-o"></i> Add New User</a></li>
-                    <li><a href="{{url('users')}}"><i class="fa fa-circle-o"></i> View All Users</a></li>
+                    <li><a href="{{route('user.create')}}"><i class="fa fa-circle-o"></i> Add New User</a></li>
+                    <li><a href="{{route('user.index')}}"><i class="fa fa-circle-o"></i> View All Users</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -54,8 +54,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{url('products/create')}}"><i class="fa fa-circle-o"></i> Add New Product</a></li>
-                    <li><a href="{{url('products')}}"><i class="fa fa-circle-o"></i> View Inventory</a></li>
+                    <li><a href="{{route('product.create')}}"><i class="fa fa-circle-o"></i> Add New Product</a></li>
+                    <li><a href="{{route('product.index')}}"><i class="fa fa-circle-o"></i> View Inventory</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -66,7 +66,7 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{url('sales')}}"><i class="fa fa-circle-o"></i> All Orders</a></li>
+                    <li><a href="{{route('sale.index')}}"><i class="fa fa-circle-o"></i> All Orders</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -77,8 +77,8 @@
             </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="{{url('projects/create')}}"><i class="fa fa-circle-o"></i> New Project</a></li>
-                    <li><a href="{{url('projects')}}"><i class="fa fa-circle-o"></i> All Projects</a></li>
+                    <li><a href="{{route('project.create')}}"><i class="fa fa-circle-o"></i> New Project</a></li>
+                    <li><a href="{{route('project.index')}}"><i class="fa fa-circle-o"></i> All Projects</a></li>
                 </ul>
             </li>
 

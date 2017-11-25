@@ -13,7 +13,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('pages.product.index');
+        return view('pages.product.index')->with(['box' => 'box']);
     }
 
     /**
@@ -23,7 +23,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('pages.product.create');
+        return view('pages.product.create')->with(['box' => 'box']);
     }
 
     /**

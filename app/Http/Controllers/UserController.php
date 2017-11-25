@@ -13,7 +13,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.user.index')->with(['box' => 'box']);
     }
 
     /**
@@ -23,7 +23,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.user.create')->with(['box' => 'box']);
     }
 
     /**
@@ -45,7 +45,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('pages.user.show')->with(['box' => 'box']);
     }
 
     /**
